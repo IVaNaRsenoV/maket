@@ -1,0 +1,130 @@
+.blog__fon {
+    background-image: url('../../../img/blog.png');
+    background-repeat: no-repeat;
+    background-size: right 0;
+}
+
+.blog {
+    padding-top: 192px;
+    padding-bottom: 220px;
+}
+
+.blog__header {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__row {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__card {
+    max-width: 300px;
+    background-color: #f2ece7;
+    transition: 0.2s linear;
+    padding: 50px 40px;
+    border-radius: 10px;
+    border: 1px solid #b3bed1;
+    cursor: pointer;
+}
+
+.blog__card:hover {
+    background-color: white;
+    border: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .blog__row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.blog__link a {
+    color: #bf4ae2;
+    font-size: 24px;
+}
+
+.blog__link {
+    padding-bottom: 50px;
+}
+
+.blog__heading h1 {
+    font-size: 60px;
+}
+
+.blog__header {
+    padding-bottom: 132px;
+}
+
+.blog__header-right {
+    display: flex;
+    align-items: end;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #c04ae2;
+}
+
+.blog__header-right p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.blog__card .card__header p {
+    font-size: 18px;
+}
+
+.blog__card .card__header h2 {
+    font-size: 24px;
+}
+
+.blog__card .card__content p {
+    font-size: 20px;
+}
+
+.blog__card .card__content {
+    padding: 50px 0px;
+}
+
+.blog__card .card__header p:nth-child(1) {
+    color: #fe6686;
+}
+.blog__card .card__header p:nth-child(2) {
+    color: #5fd7a5;
+}
+.blog__card .card__header p:nth-child(3) {
+    color: #fda04b;
+}
+
+.blog__card .card__footer .name span {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__person {
+    display: flex;
+}
+
+.card__person .name {
+    padding-left: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.card__likes {
+    display: flex;
+    align-items: center;
+}
+
+.card__likes img {
+    margin-right: 10px;
+}

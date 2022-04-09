@@ -1,0 +1,115 @@
+.projects {
+    padding-top: 200px;
+    padding-bottom: 190px;
+    background-image: url('../../../img/fon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.projects__heading h2 {
+    font-size: 60px;
+    padding-bottom: 120px;
+    padding-top: 50px;
+}
+
+.projects__heading .projects__link a {
+    font-size: 24px;
+    color: #c04ae2;
+    letter-spacing: 1.4px;
+}
+
+.projects__block {
+    max-width: 540px;
+}
+
+.projects__heading-block button {
+    padding: 24px 50px;
+    border: 2px solid #c04ae2;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.projects__heading-block p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #5e5858;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.projects__heading-block a {
+    font-size: 24px;
+    padding-top: 55px;
+}
+
+.projects__heading-block h2 {
+    font-size: 42px;
+    padding-top: 26px;
+    line-height: 1.4;
+}
+
+.projects__heading {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.projects__row:last-child {
+    padding-bottom: 0px;
+}
+
+.projects__row {
+    padding-bottom: 90px;
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.projects__row .projects__img img {
+    max-width: 470px;
+    height: auto;
+}
+
+.projects__portfolio {
+    padding-top: 94px;
+    padding-bottom: 12px;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 18px;
+    border-bottom: 2px solid #c04ae2;
+}
+
+.projects__link {
+    text-align: center;
+}
+
+.projects__img-first {
+    display: inline-block;
+    position: absolute;
+    top: 64px;
+    left: 120px;
+}
+
+.projects__img-two {
+    position: absolute;
+    display: inline-block;
+    top: 980px;
+    right: 120px;
+}
+
+.projects__img-three {
+    display: inline-block;
+    position: absolute;
+    top: 1540px;
+    left: 20px;
+}
+
+.projects__img-four {
+    display: inline-block;
+    position: absolute;
+    bottom: 68px;
+    right: 60px;
+}

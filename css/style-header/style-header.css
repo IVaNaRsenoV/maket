@@ -1,0 +1,115 @@
+header {
+    background-image: url('../../img/header__fon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.header {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav, .header__nav nav ul, .header__nav .header__social ul {
+    display: flex;
+}
+
+.header__nav nav ul li {
+    padding: 0px 16px;
+}
+
+.header__nav {
+    align-items: center;
+}
+
+.header__nav .header__button {
+    padding: 0px 30px 0px 16px;
+}
+
+.header__nav .header__button button {
+    border: 2px solid #c04ae2;
+    border-radius: 5px;
+    padding: 16px 50px 16px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ebeafa;
+}
+
+.header__button button:hover {
+    cursor: pointer;
+}
+
+.header__social .fa-facebook-f {
+    color: #3b5998;
+}
+
+.header__social .fa-twitter {
+    color: #1da1f2;
+}
+
+.header__social .fa-youtube {
+    color: #ff1e00;
+}
+
+.header__social .fa-instagram {
+    color: #df6053;
+}
+
+.header__social ul li:first-child {
+    padding-left: 0px;
+}
+
+.header__social ul li:last-child {
+    padding-right: 0px;
+}
+
+.header__social ul li {
+    padding: 0px 9px;
+}
+
+/* Header Content */
+.header__content {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 262px;
+}
+
+.header__heading, .header__text {
+    max-width: 640px;
+}
+
+.header__content .header__text {
+    padding-bottom: 65px;
+}
+
+.header__content .header__text p {
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+.header__content .header__heading {
+    padding-top: 170px;
+    padding-bottom: 60px;
+}
+
+.header__content .header__heading h1 {
+    font-size: 90px;
+}
+
+.header__content .header__button button {
+    padding: 28px 60px;
+    background-color: #c04ae2;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}

@@ -1,0 +1,131 @@
+#header__response-menu {
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.856);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    font-size: 50px;
+    transition: 0.1s linear;
+}
+
+#header__response-menu ul {
+    clear: both;
+    display: none;
+}
+
+#header__response-menu ul li {  
+    cursor: pointer;
+    padding: 30px;
+    margin: 0 auto;
+    
+    transition: 0.3s linear;
+}
+#header__response-menu ul li:hover {
+    background-color: rgba(0, 0, 0, 0.425);
+}
+#header__response-menu ul li a:hover {
+    color: rgb(236, 65, 65);
+}
+#header__response-menu ul li a {
+    
+    color: #fcdeda
+}
+
+.hamburger-menu {
+    margin: 0 auto;
+}
+
+.hamburger-menu label div {
+    position: relative;
+}
+
+.hamburger-menu label div span {
+    opacity: 1;
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    top: 20;
+    background-color: white;
+}
+
+.hamburger-menu label div span::before {
+    z-index:2;
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.hamburger-menu label div span::after {
+    z-index: 2;
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    top:20px;
+    position: absolute;
+    left: 0;
+}
+
+#menu__toggle:checked ~ #header__response-menu {
+    background-color: black;
+}
+
+#menu__toggle {
+    height: 0px;
+    width: 0px;
+}
+
+#menu__toggle:checked ~ .menu__btn > div > span {
+    background-color: inherit;
+    top: 40px;
+}
+
+#menu__toggle:checked ~ .menu__btn > div > span::before {
+    top: 0px;
+    transform: rotate(-45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > div > span::after {
+    top: 0px;
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ ul {
+    display: block;
+}
+
+#menu__toggle:checked ~ .menu__btn {
+    top: 10px;
+}
+
+.menu__btn {
+    padding-left: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+#header__response-menu {
+    display: inline-block;
+    width: 100px;
+    border-bottom-right-radius: 50px;
+    height: 100px;
+}
+
+.header__icon {
+    color: #ede1e5;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    font-size: 25px;
+}

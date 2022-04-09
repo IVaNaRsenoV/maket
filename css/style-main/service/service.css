@@ -1,0 +1,57 @@
+.service__fon {
+    background-image: url('../../../img/section__four.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1170px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-bottom: 190px;
+}
+
+.service__card {
+    border: 1px solid black;
+    padding: 74px 45px;
+    border-radius: 20px;
+    margin: 15px 0px;
+    background-color: #ffffff;
+}
+
+.service__text {
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.service__text {
+    text-align: center;
+}
+
+.service__img {
+    text-align: center;
+}
+
+.service__arrow {
+    text-align: center;
+}
+
+.service__heading {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.service__text {
+    padding-bottom: 50px;
+}
+
+.service__text p {
+    line-height: 1.6;
+}
+
+.service__arrow:hover {
+    cursor: pointer;
+}

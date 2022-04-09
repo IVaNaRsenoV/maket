@@ -1,0 +1,131 @@
+.footer {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 170px;
+    justify-content: space-between;
+    padding-bottom: 170px;
+}
+
+.footer__media {
+    max-width: 370px;
+}
+
+form {
+    display: inline-block;
+    position: relative;
+}
+
+.footer__btn {
+    display:inline-block;
+    position: absolute;
+    right: 0;
+    top: 24px;
+    margin-right: 22px;
+}
+
+footer input {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    width: 370px;
+    height: 68px;
+    font-size: 18px;
+    background-color: #f3f9fb;
+    color: #999999;
+}
+
+.footer__text {
+    text-align: justify;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.footer__row {
+    display: flex;
+}
+
+.footer__card {
+    padding-left: 94px;
+    padding-top: 18px;
+}
+
+.footer__card:first-child {
+    padding-left: 0px;
+}
+
+.footer__nav ul li {
+    padding-top: 22px;
+    line-height: 1.6;
+}
+
+.footer__nav ul li a {
+    color: #999999;
+    font-size: 18px;
+}
+
+.footer__card-header {
+    padding-bottom: 22px;
+}
+
+.footer__card-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer__nav i {
+    margin-right: 22px;
+}
+
+.footer__text p {
+    color: #7a7676;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1320px) {
+    .footer {
+        flex-direction: column;
+    }
+    .footer__row {
+        margin-top: 75px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__media {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .footer__text p {
+        font-size: 30px;
+        line-height: 2;
+    }
+    .footer__card-header h3 {
+        font-size: 80px;
+    }
+    .footer__nav ul li a {
+        font-size: 50px;
+    }
+    form input {
+        width: 500px;
+        height: 100px;
+        font-size: 30px;
+    }
+    .footer__btn {
+        top: 35px;
+    }
+    .footer__btn img {
+        width: 40px;
+    }
+    .footer__card {
+        margin-top: 120px;
+    }
+    .footer__logo img {
+        width: 200px;
+    }
+}
